@@ -25,7 +25,6 @@ const userName = prompt("Введите имя");
 
 alert("ваше имя: " + userName);
 
-// Перевірка типу змінної
 console.log(typeof userName);
 
 const isConfirmed = confirm("хотите продолжить");
