@@ -43,92 +43,118 @@
 // Створити змінні const integer = 42 та const stringNumber = "256" для зберігання цілочисельного значення та рядка з числом у вигляді рядка. Використати метод parseInt() для перетворення рядка у ціле число. Результат зберегти в змінній convertedInt та вивести результат в консоль. Потім використати метод toString() для перетворення цілочисельного значення у рядок. Результат зберегти в змінній convertedString та вивести результат в консоль.
 
 
-let celsius = 25
+// let celsius = 25
 
-let fahrenheit = (celsius*1.8)+32
+// let fahrenheit = (celsius*1.8)+32
 
-console.log(fahrenheit);
-
-
-
-
-let daysInMonth = 30
-
-let hours = daysInMonth*24
-
-let min =hours*60
-
-console.log(hours);
-
-console.log(min);
+// console.log(fahrenheit);
 
 
 
 
-let hp = 100
+// let daysInMonth = 30
 
-let energy = 100
+// let hours = daysInMonth*24
 
-console.log("health",hp-25);
+// let min =hours*60
 
-console.log("Stamin",energy-29);
+// console.log(hours);
 
-const floatNumber =12.78
-
-let roundedDown=Math.floor(floatNumber);
-
-console.log(roundedDown);
-
-
-
-let totalPrice = 500;
-
-let discount = 0.1;
-
-let discountedPrice = totalPrice*(1 - discount);
-
-console.log(discountedPrice);
-
-
-
-const floatString = "45.67";
-
-let parsedFloat = parseFloat(floatString);
-
-console.log(parsedFloat);
-
-const intString = "123";
-
-let parsedInt = parseInt(intString);
-
-console.log(parsedInt);
+// console.log(min);
 
 
 
 
-let number = 64;
+// let hp = 100
 
-let sqrtNumber = Math.sqrt(number);
+// let energy = 100
 
-console.log(sqrtNumber);
+// console.log("health",hp-25);
 
+// console.log("Stamin",energy-29);
 
+// const floatNumber =12.78
 
+// let roundedDown=Math.floor(floatNumber);
 
-const integer = 42;
-
-const stringNumber = "256";
-
-let convertedInt = parseInt(stringNumber);
-
-console.log(convertedInt);
-
-let convertedString = integer.toString();
-
-console.log(convertedString);
+// console.log(roundedDown);
 
 
 
+// let totalPrice = 500;
+
+// let discount = 0.1;
+
+// let discountedPrice = totalPrice*(1 - discount);
+
+// console.log(discountedPrice);
+
+
+
+// const floatString = "45.67";
+
+// let parsedFloat = parseFloat(floatString);
+
+// console.log(parsedFloat);
+
+// const intString = "123";
+
+// let parsedInt = parseInt(intString);
+
+// console.log(parsedInt);
+
+
+
+
+// let number = 64;
+
+// let sqrtNumber = Math.sqrt(number);
+
+// console.log(sqrtNumber);
+
+
+
+
+// const integer = 42;
+
+// const stringNumber = "256";
+
+// let convertedInt = parseInt(stringNumber);
+
+// console.log(convertedInt);
+
+// let convertedString = integer.toString();
+
+// console.log(convertedString);
+
+
+
+
+const result = 5 + 5 + '5';
+console.log(result);
+console.log(typeof result);
+
+const email = "example@gmail.com";
+const atSymbol = email.includes('@');
+const emailLength = email.length;
+
+console.log(atSymbol);
+console.log(emailLength);
+
+const wordOne = "My";
+const wordTwo = "name";
+const wordThree = "is";
+
+let fullName = `${wordOne} ${wordTwo} ${wordThree}`;
+fullName += " Viktor"
+
+console.log(fullName);
+
+
+const userName = "Олександро";
+const payment = 300;
+
+alert(`Дякуємо, ${userName}! До сплати ${payment} гривень`);
 
 
 
