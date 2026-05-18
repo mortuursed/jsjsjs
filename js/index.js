@@ -130,31 +130,31 @@
 
 
 
-const result = 5 + 5 + '5';
-console.log(result);
-console.log(typeof result);
+// const result = 5 + 5 + '5';
+// console.log(result);
+// console.log(typeof result);
 
-const email = "example@gmail.com";
-const atSymbol = email.includes('@');
-const emailLength = email.length;
+// const email = "example@gmail.com";
+// const atSymbol = email.includes('@');
+// const emailLength = email.length;
 
-console.log(atSymbol);
-console.log(emailLength);
+// console.log(atSymbol);
+// console.log(emailLength);
 
-const wordOne = "My";
-const wordTwo = "name";
-const wordThree = "is";
+// const wordOne = "My";
+// const wordTwo = "name";
+// const wordThree = "is";
 
-let fullName = `${wordOne} ${wordTwo} ${wordThree}`;
-fullName += " Viktor"
+// let fullName = `${wordOne} ${wordTwo} ${wordThree}`;
+// fullName += " Viktor"
 
-console.log(fullName);
+// console.log(fullName);
 
 
-const userName = "Олександро";
-const payment = 300;
+// const userName = "Олександро";
+// const payment = 300;
 
-alert(`Дякуємо, ${userName}! До сплати ${payment} гривень`);
+// alert(`Дякуємо, ${userName}! До сплати ${payment} гривень`);
 
 
 
