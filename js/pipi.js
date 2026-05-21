@@ -304,64 +304,169 @@
     
 // }
 
-let field1 = "привет";
-let field2 = "свет";
+// let field1 = "привет";
+// let field2 = "свет";
 
-if (field1 !== "" && field2 !== "") {
-    console.log("есть");
-} else {
-    console.log("Нет");
-}
+// if (field1 !== "" && field2 !== "") {
+//     console.log("есть");
+// } else {
+//     console.log("Нет");
+// }
 
-let num1 = 7;
-let num2 = 5;
-let sum = num1 + num2;
+// let num1 = 7;
+// let num2 = 5;
+// let sum = num1 + num2;
 
-if (sum > 10) {
-    console.log("Сума более 10");
-} else {
-    console.log("Сума менее 10");
-}
-
-
-let message = "Я учу JavaScript";
-
-if (message.includes("JavaScript")) {
-    console.log("JavaScript");
-} else {
-    console.log("не JavaScript");
-}
+// if (sum > 10) {
+//     console.log("Сума более 10");
+// } else {
+//     console.log("Сума менее 10");
+// }
 
 
-let myNumber = 15;
+// let message = "Я учу JavaScript";
 
-if (myNumber > 10 && myNumber < 20) {
-    console.log("Число входит в диапазон 10 до 20");
-} else {
-    console.log("Число не входит в диапазон від 10 до 20");
-}
-
-
-let userName = "Олексей";
-let userEmail = "test@example.com";
-let userPassword = "password123";
+// if (message.includes("JavaScript")) {
+//     console.log("JavaScript");
+// } else {
+//     console.log("не JavaScript");
+// }
 
 
-if (
-    userName.length >= 3 && 
-    userEmail.includes("@") && 
-    userPassword.length >= 6
-) {
-    console.log("Перенаправленние");
-} else {
-    console.log("неправильное заполнение");
-}
+// let myNumber = 15;
+
+// if (myNumber > 10 && myNumber < 20) {
+//     console.log("Число входит в диапазон 10 до 20");
+// } else {
+//     console.log("Число не входит в диапазон від 10 до 20");
+// }
+
+
+// let userName = "Олексей";
+// let userEmail = "test@example.com";
+// let userPassword = "password123";
+
+
+// if (
+//     userName.length >= 3 && 
+//     userEmail.includes("@") && 
+//     userPassword.length >= 6
+// ) {
+//     console.log("Перенаправленние");
+// } else {
+//     console.log("неправильное заполнение");
+// }
+
+// TASK 5 ================================================================================
+
+// let choose = prompt("какой ваш выбор сок яблоко или ёж");
+
+// let res;
+
+// switch(choose){
+//     case "juice":
+//         res = "ваш сок"
+//         break;
+//     case "apple":
+//          res = "ваш выбор яблоко"
+//          break;
+//     case "ik":
+//          res = "ваш выбор ёж"  
+//          break;  
+//     default:
+//         res = "у вас нет выбора"   
+
+//         console.log(choose);
+        
+// }
+
+// let day = prompt("введить день недели")
+
+// switch (day) {
+//   case "субота":
+//   case "неділя":
+//     console.log("Це вихідний день!");
+//     break;
+//   case "понеділок":
+//   case "вівторок":
+//   case "середа":
+//   case "четвер":
+//   case "п'ятниця":
+//     console.log("Це робочий день.");
+//     break;
+//   default:
+//     console.log("Некоректне введення.");
+// }
+
+
+// let color = prompt("Введіть колір (красный желтый зеленый)");
+
+// switch (color) {
+//     case "красный":
+//         console.log("стоп");
+//         break;
+//     case "желтый":
+//         console.log("ждать");
+//         break;
+//     case "зеленый":
+//         console.log("идти");
+//         break;
+//     default:
+//         console.log("неизвестно");
+// }
+
+
+// const num1 = Number(prompt("введите первое число"))
+
+
+// const num2 = Number(prompt("введите второе число"))
+
+// const oper = prompt("введите оператор -,+, *, /,")
+
+// let result = 0
+
+// if(oper === "+"){
+//     result = num1 + num2;
+// }
+// else if (oper === "-"){
+//     result = num1 - num2;
+// }
+// else if (oper === "*"){
+//     result = num1 * num2;
+// }
+// else if (oper === "/"){
+//     result = num1 / num2;
+// }
+
+// console.log(result);
+
+
+// const num1 = Number(15);
+
+// const num2 = Number(5);
+
+// const oper = prompt("выберите оператор");
+
+// let res = 0
+
+// if(oper === "+"){
+//     res = num1 + num2;
+// }
+// else if (oper === "-"){
+//     res = num1 - num2;
+// }
+// else if (oper === "*"){
+//     res = num1 * num2;
+// }
+// else if (oper === "/"){
+//     res = num1 / num2;
+// }
+
+// console.log(res);
 
 
 
-
-
-
+// task 6 ===============================================================
 
 
 
