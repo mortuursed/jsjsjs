@@ -158,3 +158,54 @@
 
 
 
+// const array = [10, 25, 13, 44, 15];//[10,25,13,44,15,30]
+// array[5] = 30;
+// console.log(array);
+
+// Порахувати загальну суму покупок в корзині
+// const cart = [54, 28, 105, 70, 92, 17, 120, 12, 25, 90];
+// let total = 0;
+
+//  const cart = [54, 28, 105, 70, 92, 17, 120, 12, 25, 90];
+//  let total = 0;
+
+
+//  for(let i = 0; i < cart.length; i +=1) {
+//     total += cart[i];
+//  } 
+
+//    console.log(total);
+
+
+// Написати скрипт який порахує сумму всіх парних чисел в масиві
+// const numbers = [1, 5, 8, 9, 12, 4, 15, 27, 30, 18, 14];
+// let total = 0;
+
+
+// for(let i = 0 ; i < numbers.length; i +=1){
+//     if(numbers[i] %2 !==0){
+//         continue
+//     }    
+//     total += numbers[i] 
+// }
+
+// console.log(total);
+
+
+// Напиши скрипт пошуку самого маленького числа в масиві,  при умові, що числа унікальні (не повторюються).
+const numbers = [51, 18, 13, 24, 7, 85, 19];
+let smallestNumber = numbers[0] ;
+
+for(let i = 0; i < numbers.length; i +=1){
+
+    if(smallestNumber > numbers[i]){
+        smallestNumber = numbers[i]
+    }
+}
+
+console.log(smallestNumber);
+
+
+
+
+
