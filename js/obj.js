@@ -136,89 +136,89 @@
     // Створіть об'єкт "person" з властивостями "name", "age", "gender". Додайте до об'єкту метод, який буде виводити на екран повідомлення про особистість зі значеннями всіх властивостей.
 
 
-    const person = {
-        name:'oleg',
-        age:19,
-        gender:"male",
-        showPerson(){
-            console.log(this.name,this.age,this.gender,);            
-        }
-    }
+//     const person = {
+//         name:'oleg',
+//         age:19,
+//         gender:"male",
+//         showPerson(){
+//             console.log(this.name,this.age,this.gender,);            
+//         }
+//     }
     
-    console.log(person.showPerson());
+//     console.log(person.showPerson());
     
 
-// Створіть масив об'єктів "students", де кожен об'єкт буде містити властивості "name", "age", "gender" та "grade". Напишіть функцію, яка приймає масив об'єктів "students" і повертає середній бал групи.
+// // Створіть масив об'єктів "students", де кожен об'єкт буде містити властивості "name", "age", "gender" та "grade". Напишіть функцію, яка приймає масив об'єктів "students" і повертає середній бал групи.
 
 
 
-const studen = [
-    {name:"vova", age:19, gender:"male", grade:32},
-    {name:"lena", age:21, gender:"famele", grade:38},
-    {name:'ivan', age:17, gender:"male", grade:34},  
-]
-function getAvarage (array){
-let total = 0;
- for(let i = 0; i < array.length ; i += 1){
-total += array[i].grade
- }
- return Math.round(total / array.length)
-}
+// const studen = [
+//     {name:"vova", age:19, gender:"male", grade:32},
+//     {name:"lena", age:21, gender:"famele", grade:38},
+//     {name:'ivan', age:17, gender:"male", grade:34},  
+// ]
+// function getAvarage (array){
+// let total = 0;
+//  for(let i = 0; i < array.length ; i += 1){
+// total += array[i].grade
+//  }
+//  return Math.round(total / array.length)
+// }
 
- console.log(getAvarage(studen));
+//  console.log(getAvarage(studen));
  
 
-//  Створіть об'єкт "book" з властивостями "title", "author", "year" та "genre". Додайте до об'єкту метод, який дозволить змінювати значення властивостей.
+// //  Створіть об'єкт "book" з властивостями "title", "author", "year" та "genre". Додайте до об'єкту метод, який дозволить змінювати значення властивостей.
 
-let book = {
-title:"moda",
-author:"shiren",
-year:2001,
-genre:'romance',
-update(proparty,walle){
-    this[proparty] = walle
-}
-}
+// let book = {
+// title:"moda",
+// author:"shiren",
+// year:2001,
+// genre:'romance',
+// update(proparty,walle){
+//     this[proparty] = walle
+// }
+// }
 
-book.update("title","sera")
-book.update("author","vova")
-console.log(book);
-
-
-
-const user = {
-  name: "alex",
-  email: "alex@example.com",
-  password: "SecurePassword123",
-
-  login: function(enteredEmail, enteredPassword) {
-    if (enteredEmail === this.email && enteredPassword === this.password) {
-      console.log(`Вітаємо, ${this.name}.`);
-      return true;
-    } else {
-      console.log("Неправильний email или пароль.");
-      return false;
-    }
-  }
-};
+// book.update("title","sera")
+// book.update("author","vova")
+// console.log(book);
 
 
-// Створіть об'єкт "restaurant" з властивостями "name", "cuisine", "address" та "rating". Додайте до об'єкту метод, який дозволить змінювати значення властивостей "address" та "rating"
 
- const resta = {
-        name:'olip',
-        cuisine:"anna",
-        address:"tyta",
-        rating:5 ,   
-        up(newAddress,newRating){
-            this.address = newAddress
-            this.rating = newRating
-        }            
-}
-resta.up("address","tama")
-resta.up("rating","4")
-resta.up("name","tama")
-console.log(resta);
+// const user = {
+//   name: "alex",
+//   email: "alex@example.com",
+//   password: "SecurePassword123",
+
+//   login: function(enteredEmail, enteredPassword) {
+//     if (enteredEmail === this.email && enteredPassword === this.password) {
+//       console.log(`Вітаємо, ${this.name}.`);
+//       return true;
+//     } else {
+//       console.log("Неправильний email или пароль.");
+//       return false;
+//     }
+//   }
+// };
+
+
+// // Створіть об'єкт "restaurant" з властивостями "name", "cuisine", "address" та "rating". Додайте до об'єкту метод, який дозволить змінювати значення властивостей "address" та "rating"
+
+//  const resta = {
+//         name:'olip',
+//         cuisine:"anna",
+//         address:"tyta",
+//         rating:5 ,   
+//         up(newAddress,newRating){
+//             this.address = newAddress
+//             this.rating = newRating
+//         }            
+// }
+// resta.up("address","tama")
+// resta.up("rating","4")
+// resta.up("name","tama")
+// console.log(resta);
 
 // =========================================================================================================
 
@@ -249,3 +249,67 @@ console.log(resta);
 //         }
 //     } 
 // }
+
+
+// ====================================================================================
+
+// const num = [12,14,40,32,456,21,4,23,43,45,22]
+
+// console.log(Math.min(...num));
+
+
+// function test (a,b,c){
+//   console.log(a,b,c);  
+// }
+// const number = [1,2,3]
+
+// test(...number)
+
+
+// const name = ["oleg","anna","bob","ivan","jora"]
+
+// const copyName = [...name]
+
+// const copy = name.slice(0,2)
+
+// console.log(copy);
+
+
+// const objB = {
+//   d:20,
+//   e:30,
+//   a:100,
+// }
+
+// const obj = Object.assign({},objA,objB)
+
+// console.log(obj);
+
+
+// const ObjRes = {...objA,...objB,}
+
+// console.log(ObjRes);
+
+// const objA = {
+//   a:5, 
+//   b:10,
+//   c:15,
+// }  
+
+// const res = {...objA}
+
+// res.a = 1000
+
+// console.log(res);
+
+// console.log(objA);
+
+// const a = 5
+// let b  = a
+// b = 10
+
+// console.log(a);
+// console.log(b);
+
+
+
